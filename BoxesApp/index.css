@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.app-container {
+  background-color: #0f172a;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.box-small {
+  background-color: #fbbf24;
+  width: 100px;
+  height: 100px;
+}
+
+.box-medium {
+  background-color: #38bdf8;
+  width: 150px;
+  height: 150px;
+}
+
+.box-large {
+  background-color: #ec4899;
+  width: 200px;
+  height: 200px;
+}
